@@ -1,0 +1,15 @@
+# Render Blueprint: one free web service. Deploy with "New > Blueprint" in Render
+# and point it at this repository. No paid add-ons are required.
+services:
+  - type: web
+    name: ajaia-docs
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: node src/server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: DB_PATH
+        value: data/ajaia.db

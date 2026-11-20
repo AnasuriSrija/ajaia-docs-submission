@@ -1,0 +1,6 @@
+Weekly sync, Monday
+
+Attendees: Alice, Bob, Carol
+Decisions: ship the editor on Friday.
+
+Next sync is Thursday.

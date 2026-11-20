@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ajaia Docs</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'%3E%3Cpath d='M7 3h10l6 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z' fill='%232f5d50'/%3E%3Cpath d='M17 3v4a2 2 0 0 0 2 2h4z' fill='%239cc0b3'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&display=swap"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="Ajaia Docs, all documents">
+        <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
+          <path d="M7 3h10l6 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" fill="#2f5d50" />
+          <path d="M17 3v4a2 2 0 0 0 2 2h4z" fill="#9cc0b3" />
+          <path d="M9.5 14h9M9.5 18h6" stroke="#fff" stroke-width="1.8" stroke-linecap="round" />
+        </svg>
+        <span class="brand-name">Ajaia <b>Docs</b></span>
+      </a>
+      <div class="who" title="Demo accounts. Switch people to try sharing.">
+        <label class="who-label" for="user-select">Viewing as</label>
+        <span id="user-avatar"></span>
+        <select id="user-select"></select>
+      </div>
+    </header>
+    <main id="app"></main>
+    <div id="toast" class="toast" role="alert" hidden></div>
+    <script type="module" src="/dist/app.js"></script>
+  </body>
+</html>

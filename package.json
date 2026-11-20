@@ -1,0 +1,33 @@
+{
+  "name": "ajaia-docs",
+  "version": "1.0.0",
+  "description": "Lightweight collaborative document editor",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "vitest run",
+    "start": "node src/server.js",
+    "build": "esbuild client/app.js --bundle --format=esm --minify --sourcemap --target=es2020 --outfile=public/dist/app.js",
+    "prestart": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tiptap/core": "^3.35.0",
+    "@tiptap/extensions": "^3.35.0",
+    "@tiptap/pm": "^3.35.0",
+    "@tiptap/starter-kit": "^3.35.0",
+    "esbuild": "^0.28.2",
+    "express": "^4.22.3",
+    "mammoth": "^1.13.0",
+    "multer": "^2.5.0",
+    "sanitize-html": "^2.18.2"
+  },
+  "devDependencies": {
+    "vitest": "^5.1.1"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  }
+}
