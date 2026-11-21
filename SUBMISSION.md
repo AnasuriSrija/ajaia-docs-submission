@@ -2,7 +2,7 @@
 
 ## Links
 
-- **Live product:** _TODO: paste the Render URL here_ (free tier: if it's been idle, the first load can take 30–60 seconds while it wakes up)
+- **Live product:** https://ajaia-docs-wsm4.onrender.com (free tier: if it's been idle, the first load can take 30–60 seconds while it wakes up)
 - **Walkthrough video:** in `WALKTHROUGH_URL.txt`
 - **Source:** this folder
 

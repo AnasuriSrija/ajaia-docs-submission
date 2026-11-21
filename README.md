@@ -4,7 +4,7 @@ A small collaborative document editor, loosely modelled on Google Docs. You can 
 
 I kept the scope deliberately small. `ARCHITECTURE.md` covers what I built, what I cut, and why.
 
-**Live demo:** see `SUBMISSION.md` for the URL and test accounts.
+**Live demo:** https://ajaia-docs-wsm4.onrender.com (test accounts are in `SUBMISSION.md`)
 
 ![Document editor](docs/screenshots/2-editor.jpg)
 
